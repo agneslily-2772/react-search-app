@@ -1,0 +1,61 @@
+.filters{
+    display: grid;
+    grid-template-columns: 400px 1000px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.items{
+    border: 2px #123c69 solid;
+    height: 225px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.search{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 10px;
+    width: 680px;
+    border-radius: 20px;
+}
+.filter{
+    background-color:whitesmoke;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.options input{
+    margin: 10px;
+}
+.paginationBttns{
+    margin-left: 290px;
+    width: 80%;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.paginationBttns a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #557a95;
+    cursor: pointer;
+    color: #557a95;
+}
+.paginationBttns a:hover{
+    color: aliceblue;
+    background-color: #557a95;
+}
